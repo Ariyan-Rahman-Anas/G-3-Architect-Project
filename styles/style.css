@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/* ===============--- header section ---================== */
+header{
+    background-color: #FFF4E6;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 3rem;
+    padding: 1.2rem 0;
+}
+nav ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    color: black;
+    padding: .5rem 1rem;
+    text-decoration: none;
+}
+.btn{
+    color: white;
+    background-color: #FF900E;
+    text-decoration: none;
+    padding: .6rem 1.2rem;
+    border-radius: .3rem;
+    text-align: center;
+}
+
+
+main{
+    background-color: #F7F9FC;
+}
+
+/* ===============--- banner section ---================== */
+#banner{
+    padding: 3rem 0 2.2rem 0;
+    background-color: #FFF4E6;
+}
+.banner-sec{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.title{
+    font-size: 5vw;
+}
+.details{
+    color: gray;
+    font-size: .8rem;
+    margin: 1rem 0;
+}
+.banner-sec img{
+    width: 100%;
+    margin: 0 0 3rem 0;
+}
+
+/* ===============--- list of features section ---================== */
+#list-of-features{
+    margin: 5rem 0 4rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 1rem;
+}
+.sub-title{
+    font-size: 4vw;
+}
+.sub-title span{
+    color: #FF900E;
+}
+#list-of-features .quick-features-gallery, .quick-features-info{
+    margin: 0 0 1rem 0;
+}
+.quick-features-gallery{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .6rem;
+}.quick-features-gallery img{
+    width: 100%;
+}
+
+/* ===============--- features u will love section ---================== */
+#features-u-will-love{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 1rem;
+}
+#features-u-will-love div{
+    padding: 1rem;
+
+}
+#features-u-will-love img{
+    width: 100%;
+}
+#features-u-will-love h2{
+    padding-left: .6rem;
+    border-left: .3rem solid #FF900E;
+    border-radius: .3rem;
+}
+.features-u-will-love-info{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: .8rem;
+}
+.features-u-will-love-info div{
+    border-radius: .3rem;
+    box-shadow: 2px 2px 2px rgb(183, 182, 182),
+                -1px -1px 1px lightgray;
+    padding: .68rem !important;
+}
+
+/* ===============--- experience section ---================== */
+#experience{
+    display: flex;
+    margin: 5rem auto;
+}
+#experience h1{
+    color: white;
+    background-color: #FF900E;
+    margin: 0 auto;
+    padding: 1.5rem 3rem;
+    border-radius: .3rem;
+}
+
+
+/* ===============--- some fact section ---================== */
+#facts{
+    padding: 0 2rem ;
+    margin: 5rem 0;
+}
+.facts-are{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem 4rem;
+    margin: 3rem 0;
+    text-align: center;
+}
+.facts-are div{
+    width: 100%;
+    padding: 1rem 0;
+    border-radius: .3rem;
+    background-color: rgb(249, 249, 249);
+    box-shadow: 2px 2px 2px rgb(183, 182, 182);
+}
+.facts-are h2{
+    margin: 1rem 0 .5rem 0;
+}
+.facts-are h3{
+    color: gray;
+}
+
+/* ===============--- sponsor section ---================== */
+#sponsors-are{
+    padding: 0 2rem;
+    margin: 8rem 0 1rem 0;
+}
+.sponsor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem 4rem;
+    margin: 3rem 0;
+    text-align: center;
+}
+
+/* ===============--- contact section ---================== */
+#contact{
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    margin: 5rem 0 0 0;
+    padding: 5rem 2rem;
+    gap: 2rem;
+}
+.contact-form, .contact-info{
+    padding: 3.5rem 2.5rem;
+    background-color: #FFFFFF;
+    border-radius: 1rem;
+}
+form{
+    margin: 5rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+}
+form input , textarea{
+    border: 0;
+    outline: 0;
+    margin: 0 0 .905rem 0;
+    background-color: #fffaf5;
+    width: 100%;
+    padding: 1rem .5rem;
+    border-radius: .3rem;
+}
+textarea:focus{
+    outline: 1.5px solid #FF900E;
+    background-color: red;
+    background-color: #FFFFFF;
+}
+form input:focus{
+    outline: 1.5px solid #FF900E;
+    background-color: #FFFFFF;
+
+}
+.contact-info img{
+    width: 100%;
+    border-radius: .5rem;
+}
+
+/* ===============--- footer section ---================== */
+footer{
+    padding: 2rem 1rem .2rem 1rem;
+    text-align: center;
+    background-color: #FFF4E6;
+}

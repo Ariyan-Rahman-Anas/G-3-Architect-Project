@@ -1,0 +1,78 @@
+/* ===============--- media query for mobile devices ---================== */
+@media only screen and (max-width:576px){
+/* ===============--- header section ---================== */
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    nav ul{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    nav .logo, ul, a{
+        margin: .5rem 0;
+    }
+
+/* ===============--- list of feature section ---================== */
+    #list-of-features{
+        flex-direction: column-reverse;
+    }
+
+/* ===============--- feature u will love section ---================== */
+    #features-u-will-love{
+        flex-direction: column;
+    }
+    .features-u-will-love-info{
+        width: 100%;
+    }
+
+/* ===============--- some fact section ---================== */
+    .facts-are{
+        flex-direction: column;
+    }
+
+/* ===============--- sponsor section ---================== */
+    .sponsor{
+        flex-direction: column;
+    }
+
+/* ===============--- contact section ---================== */
+    #contact{
+        flex-direction: column-reverse;
+    }
+    form{
+        width: 100%;
+    }
+}
+
+
+/* ===============--- media query for tablet devices ---================== */
+@media only screen and (min-width:576px) and (max-width:992px){
+/* ===============--- list of feature section ---================== */
+    #list-of-features{
+        flex-direction: column-reverse;
+    }
+
+/* ===============--- feature u will love section ---================== */
+    #features-u-will-love{
+        flex-direction: column;
+    }
+    
+/* ===============--- some fact section ---================== */
+    .facts-are{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+/* ===============--- sponsor section ---================== */
+    .sponsor{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+/* ===============--- contact section ---================== */
+    #contact{
+        flex-direction: column-reverse;
+        /* background-color: red; */
+    }
+} 
